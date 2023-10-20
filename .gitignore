@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/django,visualstudiocode,venv,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=django,visualstudiocode,venv,python
+# Created by https://www.toptal.com/developers/gitignore/api/venv,django,python,visualstudiocode,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=venv,django,python,visualstudiocode,react
 
 ### Django ###
 *.log
@@ -263,6 +263,21 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+### react ###
+.DS_*
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### venv ###
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
@@ -294,6 +309,30 @@ pip-selfcheck.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/django,visualstudiocode,venv,python
+# End of https://www.toptal.com/developers/gitignore/api/venv,django,python,visualstudiocode,react
 
-.vscode
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules 
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

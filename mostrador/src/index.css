@@ -1,0 +1,32 @@
+/* https://colorhunt.co/palette/343434055e6862a388b9d2d2 */
+
+:root {
+  
+  --color-principal: #343434;
+  --color-secundario:#055E68;
+  --color-terciario:#be401a;
+  
+
+  font-family: Avenir, Inter, system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400; 
+  text-decoration: none;
+
+  padding: 0;
+  margin: 0;
+
+  color-scheme: light dark;
+  color: var(--color-principal);
+
+  background-color: #333;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; 
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}

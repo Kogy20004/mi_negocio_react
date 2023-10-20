@@ -1,0 +1,20 @@
+nav{
+
+	background-color: whitesmoke;
+	display: flex; 
+	gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+	padding: 0 75px; 
+
+	& div{
+		display: flex;
+		gap: 25px;	
+		
+		& a {
+		color: black;
+		text-decoration: none;
+	}
+	}
+
+}
